@@ -1,60 +1,60 @@
-  
 * {
     box-sizing: border-box;
-}
-body {
+  }
+  body {
     margin: 0;
     height: 100%;
-}
-
-.header {
+  }
+  
+  .header {
     padding: 10px 0;
     background-color: white;
-}
-
-.header-content {
+  }
+  
+  .header-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.logo {
+  }
+  
+  .logo {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 80%;
-}
-
-.logo-img {
-    border: 0px solid #008CFF;
+  }
+  
+  .logo-img {
+    border: 0px solid #008cff;
     padding: 5px;
-    max-height: 50px;
-    max-width: 43px;
-}
-
-.address-text {
-    font: normal bold 20px/25px Montserrat;
+    max-height: 45px;
+    max-width: 45px;
+  }
+  
+  .address-text {
+    font: normal normal bold 15px/20px Montserrat;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0px;
-    color: #008CFF;
+    color: #008cff;
     text-align: left;
     text-transform: capitalize;
     display: block;
-}
-
-.book-text {
+  }
+  
+  .book-text {
     color: black;
-}
-/* added new features for form content */
-.form-content {
+  }
+  /* added new features for form content */
+  .form-content {
     min-height: calc(100%-80px);
-    background-color: #F7F7F7;
+    background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.form {
+    border: 0px solid #008cff;
+  }
+  .form {
     width: 65%;
     margin: 15px 0;
     padding: 44px 60px;
@@ -63,87 +63,95 @@ body {
     border: 1px solid skyblue;
     border-radius: 8px;
     opacity: 1;
-}
-
-.form-head {
+  }
+  
+  .form-head {
     display: flex;
     align-items: center;
     text-transform: capitalize;
     opacity: 1;
     min-height: 108px;
-    background: #008CFF 0% 0% no-repeat padding-box;
+    background: #008cff 0% 0% no-repeat padding-box;
     opacity: 1;
-}
-
-.header-text {
+  }
+  
+  .header-text {
     font: normal normal normal 24px/37px Roboto;
     letter-spacing: 0px;
     color: white;
     margin-left: 30%;
-}
-
-.cancel-img {
-    max-width: 30px;
-    max-height: 30px;
+  }
+  
+  .cancel-img {
+    max-width: 20px;
+    max-height: 20px;
     cursor: pointer;
     margin-left: 200px;
-}
-/* added new features to the form  */
-.row-content {
+  }
+  /* added new features to the form  */
+  .row-content {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
     width: 80%;
     margin-left: 10%;
-}
-
-.label {
+    border: 0px solid #008cff;
+  }
+  
+  .label {
     min-width: 140px;
-}
-
-label {
+  }
+  
+  label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-}
-
-.text {
+  }
+  
+  .text {
     font-size: 16px;
     color: black;
     opacity: 1;
     font-family: "Montserrat", sans-serif;
-}
-
-.input {
+  }
+  
+  .input {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-}
-
-.select-items {
+  }
+  
+  .select-items {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
-    border: 0px solid green;
+    border: 0px solid #008cff;
     width: 80%;
     margin-left: 10%;
     justify-content: space-between;
     align-items: center;
-}
-
-select {
+  }
+  
+  select {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    font: normal normal normal 16px Roboto ;
+    font: normal normal normal 16px Roboto;
     letter-spacing: 0px;
     color: black;
     background-color: transparent;
     width: 100%;
-}
-
-.selectDiv {
+  }
+  
+  .selectDiv {
     margin-right: 10px;
-}
+  }
+  
+  error-output {
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: Bold;
+    color: red;
+  }
