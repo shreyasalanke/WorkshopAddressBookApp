@@ -180,7 +180,8 @@ const createaAddressBook = () => {
 
 function createAndUpdateStorage() {
     let addressBookList = JSON.parse(localStorage.getItem("AddressBookList"));
-    if (addressBookList) {
+    if (addressBookList) 
+    {
         let addressBookData = addressBookList.find(addressData => addressData._id == addressBookObj._id);
         if (!addressBookData) {
             addressBookList.push(createAddressBookData());
